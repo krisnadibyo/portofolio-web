@@ -821,7 +821,7 @@ body[data-motion="off"] .marquee-track { animation: none; }
 .edu-icon {
   width: 80px; height: 80px;
   border-radius: 20px;
-  background: linear-gradient(135deg, oklch(from var(--accent-c) l c h / 0.2), oklch(from var(--accent-a) l c h / 0.1));
+  background: white;
   border: 1px solid var(--glass-border);
   display: grid; place-items: center;
   font-family: var(--font-instrument-serif), serif;

@@ -53,7 +53,7 @@ function ProjectIndodana() {
       <div className="project-tag">Flagship · Cermati</div>
       <div className="project-title">Indodana Finance & Fintech</div>
       <p className="project-desc">
-        Fintech app used across Indonesia. Leading the rewrite from imperative Views to Jetpack
+        Finance super apps with 10M+ monthly users. Top 3 Leading fintech super apps in Indonesia. Leading the rewrite from imperative Views to Jetpack
         Compose, modularising the codebase, and shipping on-device AI with MLKit.
       </p>
       <a className="project-link" href="#" onClick={(e) => e.preventDefault()}>
@@ -88,7 +88,7 @@ function ProjectIna() {
   return (
     <div className="project glass reveal">
       <div className="project-tag">Gov-scale · Edutech</div>
-      <div className="project-title">Ina Digital Edu</div>
+      <div className="project-title">Ruang GTK (Platform Merdeka Mengajar)</div>
       <p className="project-desc">
         Built from zero to 4M teachers. Highest-rated Indonesian government app — 4.9★ with 99.9%
         stability. Led 15 engineers across Mobile, Web, and QA platforms.
@@ -119,11 +119,10 @@ function ProjectIna() {
 function ProjectBL() {
   return (
     <div className="project glass reveal" style={{ "--reveal-delay": "100ms" } as CSSProperties}>
-      <div className="project-tag">Scale · Marketplace</div>
+      <div className="project-tag">Scale · E-commerce</div>
       <div className="project-title">Bukalapak</div>
       <p className="project-desc">
-        50M+ monthly users. Shipped real-time chat over WebSocket; rescued a payments pipeline from
-        70% → 90% success. Ran release cycles as release manager.
+        50M+ monthly users. one of largest e-commerce in Indonesia.
       </p>
       <a className="project-link" href="#" onClick={(e) => e.preventDefault()}>
         2014–2020
@@ -158,10 +157,10 @@ export function Projects() {
         Things I <em>shipped</em>.
       </h2>
       <div className="projects-grid">
-        <ProjectKakiLima />
         <ProjectIndodana />
         <ProjectIna />
-        <ProjectBL />
+        <ProjectBL />  
+        <ProjectKakiLima />
       </div>
     </section>
   );

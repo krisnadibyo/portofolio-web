@@ -14,7 +14,7 @@ export default function Page() {
       <main>
         <Hero />
       </main>
-      <Marquee />
+      {/* <Marquee /> */}
       <main>
         <About />
         <Experience />

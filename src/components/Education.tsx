@@ -10,7 +10,9 @@ export function Education() {
         Where I <em>started</em>.
       </h2>
       <div className="education glass reveal">
-        <div className="edu-icon">ITB</div>
+        <div className="edu-icon">
+          <img src="/itb_logo.png" alt="ITB" width={80} height={80} />
+        </div>
         <div>
           <div className="edu-title">Bachelor in Informatics Engineering</div>
           <div className="edu-sub">Bandung Institute of Technology · Indonesia</div>
